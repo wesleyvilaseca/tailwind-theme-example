@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="../dist/css/output.css">
+</head>
+<body class="bg-gray-50 tex-gray-600">
+    <div class="header">
+        <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center">
+            <div class="font-black">
+                LOGO
+            </div>
+
+            <div class="ml-auto">
+                <ul class="flex space-x-4">
+                    <li>
+                        <a href="#" class="text-sm tex-gray-600 hover:text-gray-800 hover:underline">Como reservar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm tex-gray-600 hover:text-gray-800 hover:underline">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm tex-gray-600 hover:text-gray-800 hover:underline">Informações</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm tex-gray-600 hover:text-gray-800 hover:underline">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div
+    class="banner"
+    style="
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hotel.jpg');
+    background-size: cover;
+    background-position: center;
+    ">
+        <div class="container max-w-5xl h-full mx-auto px-4 flex items-center justify-center">
+            <div class="space-y-8">
+                <div class="text-center space-y-2">
+                    <h1 class="text-gray-200 text-3xl">Onde você quer ir?</h1>
+                    <p class="text-gray-100">Escolha o estado e cidade para achar os melhores resorts.</p>
+                </div>
+    
+                <div>
+                    <form class="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                        <select
+                        class="bg-gray-50 px-3 py-3 border border-gray-300 rounded text-gray-500"
+                        >
+                            <option value="">Escolha o estado</option>
+                        </select>
+    
+                        <select
+                        class="bg-gray-50 px-3 py-3 border border-gray-300 rounded text-gray-500"
+                        >
+                            <option value="">Escolha a cidade</option>
+                        </select>
+    
+                        <button
+                        class="col-span-2 lg:col-span-1 text-yellow-800 bg-yellow-500 font-medium px-3 py-3 rounded"
+                        >Pesquisar resorts</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-resort">
+        <div>
+            <div class="container max-w-5xl mx-auto px-4 py-10">
+                <div class="flex flex-col-reverse lg:flex-row">
+                    <div class="">
+                        <div class="text-sm text-gray-400 font-medium uppercase">Resort em destaque</div>
+                        <div class="text-2xl tex-gray-600">Ecoresort Praia do Forte Bahia</div>
+                        <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
+                        <div class="text-sm text-gray-400 font-medium mt-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iusto laudantium magnam perspiciatis quos sapiente accusantium numquam aut vero quod iure molestiae earum incidunt, laborum libero tempora facere at similique.</p>
+                        </div>
+
+                        <a href="#"
+                        class="inline-flex items-center text-yellow-800 bg-yellow-500 font-medium px-3 py-3 rounded mt-5"
+                        >
+                            Solicitar reserva
+                        </a>
+                    </div>
+                    <div class="flex-shrink-0 lg:ml-auto lg:pl-10 mb-5 lg:mb-0">
+                        <img src="./images/hotel-2.jpg" alt="" width="450">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resorts-grid">
+        <div>
+            <div class="container max-w-5xl mx-auto px-4">
+                <div>
+                    <h3 class="text-2xl text-gray-500 text-semibold text-center mb-8">Conheça mais resorts</h3>
+                    <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6">
+                        <div class="relative md:col-span-2 md:row-span-2 rounded overflow-hidden mb-2 md:mb-0">
+                            <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black to-transparent opacity-80 z-10"></div>
+                            <div class="absolute bottom-0 pl-4 pb-4 text-white z-20 font-medium">
+                                Beach Park Resort
+                            </div>
+                            <img src="./images/hotel.jpg" class="w-full h-full object-cover">
+                        </div>
+                        <div class="relative md:col-span-2 md:h-40 rounded overflow-hidden mb-2 md:mb-0">
+                            <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black to-transparent opacity-80 z-10"></div>
+                            <div class="absolute bottom-0 pl-4 pb-4 text-white z-20 font-medium">
+                                Salinas do Maragogi Resort
+                            </div>
+                            <img src="./images/hotel-2.jpg" class="w-full h-full object-cover object-center">
+                        </div>
+                        <div class="relative rounded overflow-hidden mb-2 md:mb-0">
+                            <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black to-transparent opacity-80 z-10"></div>
+                            <div class="absolute bottom-0 pl-4 pb-4 text-white z-20 font-medium">
+                                Grand Palladium
+                            </div>
+                            <img src="./images/hotel-3.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="relative rounded overflow-hidden mb-2 md:mb-0">
+                            <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black to-transparent opacity-80 z-10"></div>
+                            <div class="absolute bottom-0 pl-4 pb-4 text-white z-20 font-medium">
+                                Arrail d'Ajuda Eco Resort
+                            </div>
+                            <img src="./images/hotel.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-search py-20">
+        <div class="text-center">
+            <div class="container max-w-5xl mx-auto px-4">
+                <form class="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                    <select
+                    class="bg-gray-50 px-3 py-3 border border-gray-300 rounded text-gray-500"
+                    >
+                        <option value="">Escolha o estado</option>
+                    </select>
+
+                    <select
+                    class="bg-gray-50 px-3 py-3 border border-gray-300 rounded text-gray-500"
+                    >
+                        <option value="">Escolha a cidade</option>
+                    </select>
+
+                    <button
+                    class="col-span-2 lg:col-span-1 text-yellow-800 bg-yellow-500 font-medium px-3 py-3 rounded"
+                    >Pesquisar resorts</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer border-t border-gray-200">
+        <div class="container max-w-5xl mx-auto my-6 px-4 flex items-center justify-between">
+            <div class="font-black">
+                LOGO
+            </div>
+            <div class="flex ml-auto space-x-4">
+                <a href="">
+                    <i class="fa-brands fa-facebook text-2xl"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
